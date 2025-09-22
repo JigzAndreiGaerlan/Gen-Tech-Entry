@@ -29,10 +29,10 @@ const App = () => {
             </span>
             <span className="navigations">
               <a href="#main">Home</a>
+              <a href="#about">About</a>
               <a href="#gallery">Gallery</a>
               <a href="#inspiration">Inspiration</a>
               <a href="#timeline">Timeline</a>
-              <a href="#about">About</a>
             </span>
         </div>
       <div id="main">
