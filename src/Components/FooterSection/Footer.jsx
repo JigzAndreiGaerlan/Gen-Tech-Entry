@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="altFooter">
       <div className="altFooter__brand">
         <img 
-          src="/Public/dyci-logo.webp" 
+          src="/Public/Yangalogo.jfif" 
           alt="DYCI Logo" 
           className="altFooter__logo" 
         />
