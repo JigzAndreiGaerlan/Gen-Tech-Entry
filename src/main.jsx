@@ -9,10 +9,5 @@ const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 
-<HashRouter>
-  <Routes>
-    <Route path="/" element={<App />} />
-  </Routes>
-</HashRouter>
-
+    <App />
 );

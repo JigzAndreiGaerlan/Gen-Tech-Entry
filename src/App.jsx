@@ -6,13 +6,7 @@ import Inspiration from './Components/InspirationSection/Inspiration'
 import Timeline from './Components/TimelineSection/Timeline'
 import Footer from './Components/FooterSection/Footer'
 
-const options = [
-  { name: "Home", link: "#main" },
-  { name: "About", link: "#about" },
-  { name: "Gallery", link: "#gallery" },
-  { name: "Inspiration", link: "#inspiration" },
-  { name: "Timeline", link: "#timeline" }
-];
+
 const App = () => {
   return (
     <div id="main" className='main'>
@@ -34,30 +28,29 @@ const App = () => {
                 <img src="image-removebg-preview (2).png" alt="Logo" />
             </span>
             <span className="navigations">
-                <ul>
-                    <li>
-                    {options.map((option, id) => (
-  <a href={option.link} key={id}>{option.name}</a>
-))}
-                    </li>
-                </ul>
+              <a href="#main">Home</a>
+              <a href="#gallery">Gallery</a>
+              <a href="#inspiration">Inspiration</a>
+              <a href="#timeline">Timeline</a>
+              <a href="#about">About</a>
             </span>
         </div>
-      <div>
-        <Main></Main>
-      </div>
-      <div id="about">
-        <AboutSection></AboutSection>
-      </div>
-      <div id="gallery">
-        <Gallery></Gallery>
-      </div>
-      <div id="inspiration">
-        <Inspiration></Inspiration>
-        </div>
-        <div id="timeline">
-          <Timeline></Timeline>
-        </div>
+      <div id="main">
+  <Main />
+</div>
+<div id="about">
+  <AboutSection />
+</div>
+<div id="gallery">
+  <Gallery />
+</div>
+<div id="inspiration">
+  <Inspiration />
+</div>
+<div id="timeline">
+  <Timeline />
+</div>
+
         <div id="footer">
           <Footer></Footer>
         </div>
