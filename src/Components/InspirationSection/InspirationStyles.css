@@ -13,7 +13,6 @@
   box-sizing: border-box;
 }
 
-/* Subtle clickable zones */
 .navZone {
   position: absolute;
   top: 0;
@@ -76,15 +75,14 @@
   letter-spacing: 0.5px;
 }
 
-/* Explanation styling */
 .explanationContainer {
   width: 100%;
-  min-height: 200px; /* Big initial container */
+  min-height: 200px; 
   max-height: 400px;
   background: rgba(34,37,38,0.85);
   border-radius: 1rem;
   padding: 2rem;
-  font-size: clamp(1rem, 1.8vw, 1.3rem); /* Shrinks text for long explanations */
+  font-size: clamp(1rem, 1.8vw, 1.3rem); 
   line-height: 1.6;
   color: #d9b088;
   text-align: center;
@@ -92,7 +90,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-overflow: ellipsis; /* ensures text fits */
+  text-overflow: ellipsis;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 .explanationContainer:hover {
@@ -104,7 +102,6 @@
     height: 100%;
 }
 
-/* Dots */
 .dots {
   position: absolute;
   bottom: 2rem;
@@ -125,7 +122,6 @@
   transform: scale(1.3);
 }
 
-/* Slide in animation */
 .inspirationSlideIn {
   opacity: 0;
   transform: translateY(60px);
@@ -136,7 +132,6 @@
   transform: translateY(0);
 }
 
-/* Responsive tweaks */
 @media screen and (max-width: 900px) {
   .quote {
     font-size: clamp(1.4rem, 4vw, 1.8rem);
