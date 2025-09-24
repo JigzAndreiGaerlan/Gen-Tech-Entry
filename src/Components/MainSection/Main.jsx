@@ -7,7 +7,7 @@ const Main = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1200); // 1.2s loading
+    const timer = setTimeout(() => setLoading(false), 1200);
     return () => clearTimeout(timer);
   }, []);
 
@@ -48,7 +48,7 @@ const Main = () => {
           <p className='developText'>
             Developed by:
             <a href='https://www.facebook.com/drei.grln/' target='_blank'>
-              <i className='fa-brands fa-facebook'></i> jigzgaerlan@gmail.com
+              <i className='fa-brands fa-facebook'></i> Andrei Gaerlan
             </a>
           </p>
         </div>
