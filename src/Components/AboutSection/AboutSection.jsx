@@ -8,7 +8,7 @@ const AboutSection = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setVisible(entry.isIntersecting); // dynamically toggle
+        setVisible(entry.isIntersecting);
       },
       {
         root: null,

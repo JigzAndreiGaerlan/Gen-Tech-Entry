@@ -2,9 +2,9 @@ import React from 'react'
 import Main from './Components/MainSection/Main'
 import AboutSection from './Components/AboutSection/AboutSection'
 import Gallery from './Components/GallerySection/Gallery'
-import Inspiration from './Components/InspirationSection/Inspiration'
 import Timeline from './Components/TimelineSection/Timeline'
 import Footer from './Components/FooterSection/Footer'
+import Inspiration from './Components/InspirationSection/Inspiration'
 
 
 const App = () => {

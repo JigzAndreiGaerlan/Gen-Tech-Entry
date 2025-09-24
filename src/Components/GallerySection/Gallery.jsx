@@ -70,7 +70,6 @@ const Gallery = () => {
         }}>
           <p style={{
             color: '#cfcfcfff',
-            fontSize: '0.8rem',
             maxWidth: '60%',
             margin: 0,
           }}>
