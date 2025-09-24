@@ -48,7 +48,7 @@ const Main = () => {
           <p className='developText'>
             Developed by:
             <a href='https://www.facebook.com/drei.grln/' target='_blank'>
-              <i className='fa-brands fa-facebook'></i> Andrei Gaerlan
+              <i className='fa-brands fa-facebook'></i>Andrei Gaerlan
             </a>
           </p>
         </div>
